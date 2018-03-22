@@ -9,7 +9,7 @@ body
 /* Global */
 .container
 {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -19,7 +19,6 @@ header
     background: #ffffff;
     color: #30415d;
     min-height: 70px;
-    padding-left: 
 }
 
 header a
@@ -58,4 +57,15 @@ header nav
 {
     float: right;
     margin-top: 20px;
+}
+
+header .dot
+{
+    color: #cf6766;
+}
+
+header #name
+{
+    color: #cf6766;
+    font-family: 'Montserrat Alternates', sans-serif;
 }

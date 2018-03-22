@@ -17,13 +17,13 @@ body
 header
 {
     background: #ffffff;
-    color: #30415d;
+    color: #031424;
     min-height: 70px;
 }
 
 header a
 {
-    color: #30415d;
+    color: #031424;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -76,7 +76,7 @@ header #name
     height: 800px;
     background: #cf6766;
     position: absolute;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 #main-page .greeting
@@ -85,12 +85,15 @@ header #name
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     display: block;
-    color: #031424;
     font-size: 80px;
-    line-height: 0;
+    font-weight: 900;
+    line-height: 1;
+    color: #30415d;
     padding-left: 100px;
     padding-top: 70px;
 }
 
-
-
+#main-page .greeting .dots
+{
+    color: #cf6766;
+}

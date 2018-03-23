@@ -101,11 +101,18 @@ header #name
     color: #cf6766;
 }
 
-#main-page #aw-fonts 
+/* Footer */
+footer
 {
-    float: right;
-    position: relative;
     list-style-type: none;
+    position: fixed;
+    margin-left: 1550px;
+}
+
+footer .fa 
+{
+    margin-bottom: 15px;
+    color: #031424;
 }
 
 

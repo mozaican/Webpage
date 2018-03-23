@@ -104,10 +104,8 @@ header #name
 #main-page #aw-fonts 
 {
     float: right;
-    color: black;
-    margin-bottom: 100px;
     position: relative;
-    margin-bottom: 50px;
+    list-style-type: none;
 }
 
 

@@ -72,6 +72,7 @@ header #name
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* Main page */
 #main-page .box
 {
     width: 800px;
@@ -99,3 +100,14 @@ header #name
 {
     color: #cf6766;
 }
+
+#main-page #aw-fonts 
+{
+    float: right;
+    color: black;
+    margin-bottom: 100px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+

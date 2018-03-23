@@ -92,8 +92,7 @@ header #name
     font-weight: 900;
     line-height: 1;
     color: #30415d;
-    padding-left: 100px;
-    padding-top: 70px;
+    padding: 70px 0 0 100px;
 }
 
 #main-page .greeting .dots
@@ -101,15 +100,19 @@ header #name
     color: #cf6766;
 }
 
-/* Footer */
-footer
+/* Icons */
+#fonts
 {
-    list-style-type: none;
     position: fixed;
-    margin-left: 1550px;
+    margin: 350px 0 0 1600px;
 }
 
-footer .fa 
+#fonts #fonts-aw
+{
+    list-style-type: none;
+}
+
+#fonts .fa 
 {
     margin-bottom: 15px;
     color: #031424;

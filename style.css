@@ -93,6 +93,7 @@ header #name
     line-height: 1;
     color: #30415d;
     padding: 70px 0 0 100px;
+    letter-spacing: 8px;
 }
 
 #main-page .greeting .dots
@@ -118,4 +119,15 @@ header #name
     color: #031424;
 }
 
+/* Second page */
+/*
+#rectangle 
+{
+    width: 1600px;
+    height: 800px;
+    border: solid red 1px;
+    position: absolute;
+    margin-right: 100px;
+}
+*/
 

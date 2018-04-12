@@ -13,6 +13,8 @@ body
 {
     width: 90%;
     margin: auto;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 /* Header */
@@ -73,13 +75,14 @@ header #name
 }
 
 /* Main page */
-#main-page .box
+#main-page #square
 {
     width: 800px;
     height: 800px;
     background: #cf6766;
     position: absolute;
     margin-top: -60px;
+    display: inline-block;
 }
 
 #main-page .greeting
@@ -119,15 +122,12 @@ header #name
     color: #031424;
 }
 
-/* Second page */
-/*
 #rectangle 
 {
-    width: 1600px;
     height: 800px;
-    border: solid red 1px;
+    width: 1600px;
+    background: #cf6766;
     position: absolute;
-    margin-right: 100px;
+    display: inline-block;
 }
-*/
 

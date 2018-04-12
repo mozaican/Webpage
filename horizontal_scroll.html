@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        html, body 
+        {
+            height: 100%;
+        }
+
+        .wrapper 
+        {
+            height: 100%;
+            background-color:white;
+        }
+
+        .surround-container 
+        {
+            height: 100%;
+            overflow: auto;
+            white-space: nowrap;
+        }
+
+        .hPage
+        {
+            background-color: green;
+            display: inline-block;
+        }
+
+        #left-square 
+        {
+            height: 100%;
+            width: 50%;
+            margin: 50px 0 50px 50px;
+        }
+
+        #right-square 
+        {
+            height: 100%;
+            width: 50%;
+            margin: 50px 50% 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="surround-container">
+            <div class="hPage" id="left-square"></div
+            ><div class="hPage" id="right-square"></div>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

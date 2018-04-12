@@ -86,7 +86,6 @@ header #name
 #main-page #square
 {
     width: 800px;
-    height: 90%;
     margin-top: -60px;
     background: #cf6766;
     display: inline-block;
@@ -94,7 +93,6 @@ header #name
 
 #rectangle 
 {
-    height: 90%;
     width: 1600px;
     background: #cf6766;
     display: inline-block;

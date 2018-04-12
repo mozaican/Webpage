@@ -8,8 +8,8 @@ body
     background-color: #ffffff;
 }
 
-/* Global */
-.container
+/*Menu*/
+.menu
 {
     width: 90%;
     margin: auto;
@@ -17,7 +17,6 @@ body
     white-space: nowrap;
 }
 
-/* Header */
 header
 {
     background: #ffffff;
@@ -75,13 +74,29 @@ header #name
 }
 
 /* Main page */
+
+.container 
+{
+    height: 100%;
+    overflow: scroll;
+    white-space: nowrap;
+    display: inline-block;
+}
+
 #main-page #square
 {
     width: 800px;
-    height: 800px;
-    background: #cf6766;
-    position: absolute;
+    height: 90%;
     margin-top: -60px;
+    background: #cf6766;
+    display: inline-block;
+}
+
+#rectangle 
+{
+    height: 90%;
+    width: 1600px;
+    background: #cf6766;
     display: inline-block;
 }
 
@@ -122,12 +137,4 @@ header #name
     color: #031424;
 }
 
-#rectangle 
-{
-    height: 800px;
-    width: 1600px;
-    background: #cf6766;
-    position: absolute;
-    display: inline-block;
-}
 

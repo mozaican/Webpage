@@ -60,28 +60,35 @@
     </div>
 
     <script>
-        $(function()
+        // $(function()
+        // {
+        //     var $body = $("body");
+        //     var $surroundContainer = $(".surround-container");
+        //     var $hPage = $(".hPage");
+
+        //     function goRight() 
+        //     {
+        //         //functia asta ar trebui sa faca scrollul lateral
+        //         //cred ca are legatura cu window.resize 
+        //     }
+
+        //     //ce e mai jos ar avea legatura cu event handler, care nu mi-e clar cum se foloseste :(
+        //     //o incercare...
+
+        //     function mouseEvent() 
+        //     {
+        //         goRight();
+        //     }
+
+        //     $body.bind("mousewheel", mouseEvent); 
+        // });
+
+        function test(event) 
         {
-            var $body = $("body");
-            var $surroundContainer = $(".surround-container");
-            var $hPage = $(".hPage");
+            console.log(event);
+        }
 
-            function goRight() 
-            {
-                //functia asta ar trebui sa faca scrollul lateral
-                //cred ca are legatura cu window.resize 
-            }
-
-            //ce e mai jos ar avea legatura cu event handler, care nu mi-e clar cum se foloseste :(
-            //o incercare...
-
-            function mouseEvent() 
-            {
-                goRight();
-            }
-
-            $body.bind("mousewheel", mouseEvent); 
-        });
+        document.addEventListener("scroll", test);
     </script>
 </body>
 </html>

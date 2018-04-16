@@ -72,6 +72,8 @@
                 //cred ca are legatura cu window.resize 
             }
 
+            //ce e mai jos ar avea legatura cu event handler, care nu mi-e clar cum se foloseste :(
+            //o incercare...
             function bind() 
             {
                 $body.on("mousewheel", mouseEvent);
@@ -82,7 +84,7 @@
                 goRight();
             }
 
-            $body.bind("mousewheel", mouseEvent);
+            $body.bind("mousewheel", mouseEvent); 
         });
     </script>
 </body>

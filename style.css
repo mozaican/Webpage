@@ -8,15 +8,14 @@ body
     background-color: #ffffff;
 }
 
-/*Menu*/
-.menu
+/*Global*/
+.container
 {
     width: 90%;
     margin: auto;
-    overflow: auto;
-    white-space: nowrap;
 }
 
+/*Navbar*/
 header
 {
     background: #ffffff;
@@ -74,18 +73,13 @@ header #name
 }
 
 /* Main page */
-
-.container 
-{
-    height: 100%;
-}
-
 #main-page #square
 {
     width: 800px;
+    height: 800px;
     margin-top: -60px;
     background: #cf6766;
-    display: inline-block;
+    display: absolute;
 }
 
 /*

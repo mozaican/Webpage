@@ -78,9 +78,6 @@ header #name
 .container 
 {
     height: 100%;
-    overflow: scroll;
-    white-space: nowrap;
-    display: inline-block;
 }
 
 #main-page #square

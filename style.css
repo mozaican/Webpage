@@ -91,12 +91,14 @@ header #name
     display: inline-block;
 }
 
+/*
 #rectangle 
 {
     width: 1600px;
     background: #cf6766;
     display: inline-block;
 }
+*/
 
 #main-page .greeting
 {

@@ -1,3 +1,0 @@
-
-- hide the horizontal scroll bar
-- make the vertical scroll move the page horizontally

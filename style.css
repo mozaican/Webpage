@@ -1,3 +1,4 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates:900');
 
 body 
@@ -8,14 +9,12 @@ body
     background-color: #ffffff;
 }
 
-/*Global*/
 .container
 {
     width: 90%;
     margin: auto;
 }
 
-/*Navbar*/
 header
 {
     background: #ffffff;
@@ -72,7 +71,6 @@ header #name
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-/* Main page */
 #main-page #box
 {
     width: 800px;
@@ -82,14 +80,11 @@ header #name
     display: absolute;
 }
 
-/*
-#rectangle 
 {
     width: 1600px;
     background: #cf6766;
     display: inline-block;
 }
-*/
 
 #main-page .greeting
 {
@@ -110,7 +105,6 @@ header #name
     color: #cf6766;
 }
 
-/* Icons */
 #fonts
 {
     position: fixed;
@@ -128,4 +122,5 @@ header #name
     color: #031424;
 }
 
+*/
 

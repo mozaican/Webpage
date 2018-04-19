@@ -122,5 +122,9 @@ header #name
     color: #031424;
 }
 
+h1 span .piece 
+{
+    display: block;
+}
 */
 

@@ -53,6 +53,11 @@ header .dot
     color: #cf6766;
 }
 
+section #home 
+{
+    position: relative;
+}
+
 section #first-box
 {
     width: 800px;
@@ -65,14 +70,16 @@ section #first-box
 section #greeting 
 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 900;
     line-height: 1;
     text-align: center;
-    padding: 70px 0 0 100px;
+    padding: 0 0 0 100px;
     letter-spacing: 8px;   
     color: #30415d;
-    position: relative;
+    position: absolute;
+    top: 80px;
+    right: 80px;
 }
 
 span .piece 

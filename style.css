@@ -53,13 +53,31 @@ header .dot
     color: #cf6766;
 }
 
-#home .box
+section #first-box
 {
     width: 800px;
     height: 800px;
-    margin: 5px 0 0 50px;
+    margin: 10px 0 60px 50px;
     background: #cf6766;
     display: absolute;
+}
+
+section #greeting 
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    padding: 70px 0 0 100px;
+    letter-spacing: 8px;   
+    color: #30415d;
+    position: relative;
+}
+
+span .piece 
+{
+    display: block;
 }
 
 /*

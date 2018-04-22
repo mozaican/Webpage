@@ -7,7 +7,7 @@ body
     margin: 0;
     background-color: #ffffff;
 }
- 
+
 header
 {
     background: #ffffff;
@@ -18,7 +18,7 @@ header
 header #branding 
 {
     float: left;
-    margin: 10px 0 10px 50px;
+    margin: 20px 0 10px 50px;
     text-transform: uppercase;
     font-size: 10px;
 }
@@ -32,7 +32,7 @@ header li
 header nav 
 {
     float: right;
-    margin: 10px 50px 10px 0;
+    margin: 20px 50px 10px 0;
 }
 
 header a
@@ -53,16 +53,16 @@ header .dot
     color: #cf6766;
 }
 
-section #home 
+section
 {
     position: relative;
 }
 
 section #first-box
 {
-    width: 800px;
-    height: 800px;
-    margin: 10px 0 60px 50px;
+    width: 770px;
+    height: 770px;
+    margin: 20px 0 60px 50px;
     background: #cf6766;
     display: absolute;
 }
@@ -78,8 +78,8 @@ section #greeting
     letter-spacing: 10px;   
     color: #30415d;
     position: absolute;
-    top: 125px;
-    left: 575px;
+    top: 40px;
+    left: 545px;
 }
 
 span.piece
@@ -92,28 +92,15 @@ span.piece
     color: #cf6766;
 }
 
-/*
+section #sec-box
 {
-    width: 1600px;
+    width: 770px;
+    height: 770px;
+    margin: 90px 40px 90px 820px;
     background: #cf6766;
-    display: inline-block;
+    display: absolute;
 }
-
-#main-page .greeting
-{
-    position: relative;
-    text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: block;
-    font-size: 80px;
-    font-weight: 900;
-    line-height: 1;
-    color: #30415d;
-    padding: 70px 0 0 100px;
-    letter-spacing: 8px;
-}
-
-
+/*
 
 #fonts
 {

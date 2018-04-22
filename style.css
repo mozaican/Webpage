@@ -100,6 +100,14 @@ section #sec-box
     background: #cf6766;
     display: absolute;
 }
+
+#options span {
+    display:none;
+}
+
+#options {
+    display:inline;
+}
 /*
 
 #fonts

@@ -13,26 +13,39 @@ header
     background: #ffffff;
     color: #031424;
     min-height: 70px;
+    height: 50px;
 }
 
 header #branding 
 {
     float: left;
+    display: block;
     margin: 10px 0 10px 50px;
     text-transform: uppercase;
     font-size: 10px;
 }
 
+header .menu 
+{
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 header li
 {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 30px 0 20px;
 }
 
 header nav 
 {
     float: right;
-    margin: 10px 50px 10px 0;
+    margin: 10px 50px 10px 1000px;
+    display: block;
 }
 
 header a
@@ -48,11 +61,6 @@ header #name
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-header .dot
-{
-    color: #cf6766;
-}
-
 section
 {
     position: relative;
@@ -62,7 +70,7 @@ section #first-box
 {
     width: 770px;
     height: 770px;
-    margin: 20px 0 60px 50px;
+    margin: 10px 0 60px 50px;
     background: #cf6766;
     display: absolute;
 }
@@ -70,16 +78,16 @@ section #first-box
 section #greeting 
 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 900;
-    line-height: 2;
+    line-height: 1.8;
     text-align: center;
     padding: 0 0 0 100px;
-    letter-spacing: 10px;   
+    letter-spacing: 15px;   
     color: #30415d;
     position: absolute;
-    top: 40px;
-    left: 545px;
+    top: 30px;
+    left: 520px;
 }
 
 span.piece
@@ -96,7 +104,7 @@ section #sec-box
 {
     width: 770px;
     height: 770px;
-    margin: 90px 40px 90px 820px;
+    margin: 100px 40px 90px 830px;
     background: #cf6766;
     display: absolute;
 }
@@ -107,22 +115,55 @@ section #sec-box
 
 #options {
     display: inline;
+    color: #031424;
+}
+
+section #intro 
+{
+    position: absolute;
+    top: 10px;
+    right: 280px;
+    font-size: 30px;
     color: #8eaebd;
+    text-transform: uppercase;
 }
 
 section #about-me 
 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 100;
+    margin-top: 0;
     line-height: 1;
     text-align: left;
-    padding: 0 0 0 100px;
+    padding: 0 0 0 50px;
     letter-spacing: 5px;   
     color: #30415d;
     position: absolute;
     top: 0;
-    left: 250px;
+    left: 10px;
+}
+
+span#dot 
+{
+    color: #031424
+}
+
+#skills 
+{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+}
+
+p#sk
+{
+    position: absolute;
+    right: 840px;
+    top: 100px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 #photo 

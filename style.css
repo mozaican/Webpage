@@ -65,7 +65,7 @@ section
 section #first-box
 {
     width: 770px;
-    height: 770px;
+    height: 870px;
     margin: 10px 0 60px 50px;
     background: #cf6766;
     display: absolute;
@@ -82,7 +82,7 @@ section #greeting
     letter-spacing: 15px;   
     color: #30415d;
     position: absolute;
-    top: 30px;
+    top: 100px;
     left: 520px;
 }
 

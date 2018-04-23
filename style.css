@@ -14,6 +14,12 @@ header
     color: #031424;
     min-height: 70px;
     height: 50px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 header #branding 
@@ -23,16 +29,6 @@ header #branding
     margin: 10px 0 10px 50px;
     text-transform: uppercase;
     font-size: 10px;
-}
-
-header .menu 
-{
-    overflow: hidden;
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    right: 0;
-    left: 0;
 }
 
 header li

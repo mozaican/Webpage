@@ -103,6 +103,7 @@ section #sec-box
     margin: 100px 40px 90px 830px;
     background: #cf6766;
     display: absolute;
+    top: 10px;
 }
 
 #options span {
@@ -191,8 +192,23 @@ ul.listStyle
     list-style: none;
 }
 
-/*
+section #projects 
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: 0;
+    line-height: 1;
+    text-align: left;
+    padding: 10px 50px 0 0;
+    letter-spacing: 5px;   
+    color: #30415d;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+/*
 #fonts
 {
     position: fixed;
@@ -209,10 +225,4 @@ ul.listStyle
     margin-bottom: 15px;
     color: #031424;
 }
-
-h1 span .piece 
-{
-    display: block;
-}
 */
-
